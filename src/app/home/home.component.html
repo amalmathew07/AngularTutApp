@@ -1,0 +1,24 @@
+	<div class="container clearfix">
+  	<div class="news_right clearfix" id="news">
+
+	<span class="news_title">Latest News</span><br><br>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <a href="#">eiusmod 
+        tempor</a> incididunt ut labore et dolore magna aliqua. <br>
+        <br>
+        <a href="#">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+	
+	</div>
+	<form #uform = "ngForm" (ngSubmit) = "onSubmit(uform.value)">
+    <div class="form-group">
+      <label>Name</label>
+      <input type = "text" class ="form- control" name = "name" ngModel>
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type = "text" class ="form- control" name = "email" ngModel>
+    </div>
+    <button type = "submit">Submit</button>
+	</form>
+</div>

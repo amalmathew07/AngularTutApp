@@ -1,0 +1,30 @@
+<body>
+<div class="wrap clearfix">
+	  <div class = "top corner" id="login">
+    <ul>
+  <li><strong><a href="./logincomponent/logincomponent.component.html" target="_blank">Register</a></strong></li>
+	<li><strong><a routerLink = "/Login" routerLinkActive ="active-link">Login</a></strong></li>
+  </ul>
+  </div>
+  <div class="header"><strong>world party site</strong></div>
+  
+  <div class="topnav" id="nav">
+    <nav>
+  <ul>
+  <li><a routerLink = "/Home" routerLinkActive ="active-link">Home</a></li>
+	<li><a routerLink = "/NotFound" routerLinkActive ="active-link">About Us</a></li>
+	<li><a href="#">News</a></li>
+	<li><a href="#">Contact Us</a></li>
+  <li><button (click) = "onClick(input1.value)">Button</button></li>
+  <input type = "text" #input1>
+  </ul>
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
+	<div class="footer" id="footer">
+Copyright © 2017 | All Rights Reserved  
+	</div>
+
+</div>
+</body>
+  
